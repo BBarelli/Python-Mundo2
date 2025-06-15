@@ -1,5 +1,5 @@
-'''
-Criar estruturas condiconais aninhadas usando (if...elif)
+
+# Criar estruturas condiconais aninhadas usando (if...elif)
 
 Condição simplificada:
 if carro.esquerda(): #você pode ter um if sem else e vários elif
@@ -32,7 +32,4 @@ elif nome == 'João' or nome == 'Maria' or nome == 'Paulo':
 else: 
     print('Seu nome é bem comum')
 print('Tenha um bom dia, {}!'.format(nome))
-
-
- '''
 
