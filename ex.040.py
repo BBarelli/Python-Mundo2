@@ -9,7 +9,7 @@ media = (n1+n2) / 2
 
 if media > 7:
     print(f'Parabéns você foi APROVADO! com média {media}')
-elif media > 5 and media <= 6.9:
+elif 5 <= media > 7: #Ou media == 5 and media <= 6.9
     print('Infelizmente você ficou de RECUPERAÇÃO, acreditamos em você')
 else:
     print('Seu resultado não foi satisfatório você está REPROVADO') 
