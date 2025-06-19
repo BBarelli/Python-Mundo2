@@ -8,7 +8,11 @@ import time
 
 preco = float(input('Informe o valor do produto: '))
 print('Abaixo veja as formas de pagamento:')
-print('1. A vista no dinheiro ou cheque / 2. A vista no cartão / 3. 2x Cartão / 4. 3x no cartão + juros')
+print('
+1. A vista no dinheiro ou cheque
+2. A vista no cartão 
+3. 2x Cartão
+4. 3x no cartão + juros')
 pagamento = int(input('Qual a opção de pagamento: '))
 time.sleep(1)
 
