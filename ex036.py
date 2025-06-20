@@ -7,8 +7,9 @@ ano = int(input('Em quantos pretende simular: '))
 prestacao = casa / (ano * 12) 
 limite = salario * 0.3
 
-if prestacao > limite:  
-    print('Que pena a prestação excede o valor do seu salário.')
+if prestacao <= limite:  
+    print(f'O imovél no valor de:R$ {casa:.2f}, terá uma parcela de R$ {prestacao:.2f} dentro do prazo {ano} anos')    
+    print('Parabéns temos margem de crédito pra você.')
 else: #No else não se passa condição:    
-    print(f'A casa custa {casa:.2f}, seu salário é de {salario:.2f}, dentro de {ano} anos')
-    print('Parabéns você foi contemplado!')
+    print(f'O imovél no valor de:R$ {casa:.2f}, terá uma parcela de R$ {prestacao:.2f} dentro do prazo {ano} anos')    
+    print('Infelizmente a margem de crédito não foi liberada.')
