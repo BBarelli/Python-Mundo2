@@ -8,11 +8,7 @@ import time
 
 preco = float(input('Informe o valor do produto: '))
 print('Abaixo veja as formas de pagamento:')
-print('
-1. A vista no dinheiro ou cheque
-2. A vista no cartão 
-3. 2x Cartão
-4. 3x no cartão + juros')
+print('1. A vista no dinheiro ou cheque, 2. A vista no cartão, 3. 2x Cartão, 4. 3x no cartão + juros')
 pagamento = int(input('Qual a opção de pagamento: '))
 time.sleep(1)
 
@@ -31,6 +27,7 @@ elif pagamento == 4:
         print('Quantidade de parcelas não permitida.')
     else:
         txcartao = preco + (preco * 20 / 100)
-        print(f'Em {parcelas} parcelas, o valor ficará em: {txcartao / parcelas:.2f}')
+        print(
+            f'Em {parcelas} parcelas, o valor ficará em: {txcartao / parcelas:.2f}')
 else:
     print('Forma de pagamento inválida')
