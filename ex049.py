@@ -3,6 +3,6 @@
 n = int(input('Digite o número que você deseja saber a tabuada: '))
 for c in range(1 , 11):
     m = n * c
-    print(f' Tabuada do {n} * {c}: {m}')
+    print(f'{n} * {c}: {m}')
 print('FIM')
 #  print(f' Tabuada do {n}: {m}')
