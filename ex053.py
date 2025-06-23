@@ -1,0 +1,1 @@
+# Exercício Python 53: Crie um programa que leia uma frase qualquer e diga se ela é um polidromo, desconsiderando os espaços 
