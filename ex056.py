@@ -8,10 +8,10 @@ mulher20 = 0
 
 for pessoa in range(1, 5):
     print(f'----- {pessoa}ª Pessoa -----')
-    nome = input('Nome: ').strip()
-    sexo = input('Sexo [M/F]: ').strip().lower()
+    nome = str(input('Nome: ').strip())
+    sexo = str(input('Sexo [M/F]: ')).strip().lower()
     idade = int(input('Idade: '))
-    soma_idade += idade
+    ssoma_idade += idade
 
     if sexo == 'm':
         if idade > mais_velho:
@@ -20,7 +20,7 @@ for pessoa in range(1, 5):
     elif sexo == 'f' and idade < 20:
         mulher20 += 1
 
-media = soma_idade / 4
+media = ssoma_idade / 4
 print(f'\nA média de idade do grupo é de {media:.2f} anos.')
 if nome_velho:
     print(f'O homem mais velho é {nome_velho} com {mais_velho} anos.')
