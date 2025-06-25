@@ -1,5 +1,5 @@
 
-# Criar estruturas condiconais aninhadas usando (if...elif)
+# Criar estruturas condiconais aninhadas usando (if...elif).
 
 Condição simplificada:
 if carro.esquerda(): #você pode ter um if sem else e vários elif
