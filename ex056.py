@@ -6,7 +6,7 @@ mais_velho = 0
 nome_velho = ''
 mulher20 = 0
 
-for pessoa in range(1, 5):
+for pessoa in range(1, 4):
     print(f'----- {pessoa}ª Pessoa -----')
     nome = str(input('Nome: ').strip())
     sexo = str(input('Sexo [M/F]: ')).strip().lower()
