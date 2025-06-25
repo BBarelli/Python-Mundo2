@@ -9,7 +9,7 @@ elif carro.direita(): # dentro do if pode usar quantos elif quiser. // nunca pod
 else: #se utiliza nenhuma ou apenas 1x! 
     bloco 3
 
-#Relembrando a condição simples:
+#Relembrando a condição simples (BLOCO 1):
 nome = str(input('Digite o seu nome: '))sr()
 if nome == Breno:
     print('Nossa que nome bonito você tem')
