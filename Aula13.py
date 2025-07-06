@@ -1,4 +1,6 @@
-# Estrutura de controle: Laços, Repetições e Iteração (Laços de Repetição 1)
+# ESTRUTURA DE REPETIÇÃO COM VÁRIAVEL DE CONTROLE:
+# laços, Repetições e Iteração (Laços de Repetição 1)
+#Quando vc sabe o limite
 
 '''
 
