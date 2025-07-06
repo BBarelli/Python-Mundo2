@@ -3,7 +3,14 @@
 '''
 Python: quando você não sabe o limite
 comando do é:
-While not:
+While 'variavel' not in 'parametro'
+Enquanto váriavel não estiver em parametro
+
+
+ou
+
+While 'variavel' in 'parametro'
+Enquanto variavel estiver no parametro
 
 while not(maça):
     if chao:
