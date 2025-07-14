@@ -6,7 +6,6 @@ comando do é:
 While 'variavel' not in 'parametro'
 Enquanto váriavel não estiver em parametro
 
-
 ou
 
 While 'variavel' in 'parametro'
