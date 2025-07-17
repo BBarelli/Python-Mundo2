@@ -3,4 +3,10 @@
 
 t = int(input('Digite um número como termo: '))
 r = int(input('Digite um número como razão: '))
-while c >
+termo = t
+cont = 1
+while cont <= 10:
+    print(f'{termo} ', end='')
+    termo += r
+    cont += 1
+print('Fim')
